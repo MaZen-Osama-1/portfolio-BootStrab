@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaZen Osama | Junior Web Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of MaZen Osama, a Computer Science student and junior web developer."
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-black fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-2 text-white" href="#">MaZen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase text-white"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="#about"
+                >About</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="#services"
+                >Services</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="#Work"
+                >Portfolio</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-uppercase text-white"
+                href="#Work"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Work</a
+              >
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#Work">Portfolio</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#services">Services</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#about">About</a>
+                </li>
+
+                <!-- Nested dropdown -->
+                <li class="dropdown-submenu">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Live Demos</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://mazen-osama-1.github.io/techStore/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Tech Store</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://mazen-osama-1.github.io/template_Two_Kasper/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Kasper Template</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://mazen-osama-1.github.io/template_one_Leon/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Leon Template</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="d-flex justify-content-center align-items-center">
+      <div class="header-caption text-center text-white">
+        <h1>I am MaZen Osama</h1>
+        <span id="typed"></span>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container shadow-lg p-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div>
+                      <img
+                        src="images/profile.jpg"
+                        alt="Photo of MaZen Osama"
+                        class="w-100 rounded-3 about-photo"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div>
+                      <ul class="list-unstyled">
+                        <li class="my-3"><span>Name: </span> MaZen Osama</li>
+                        <li class="my-3">
+                          <span>Profile: </span> Junior Web Developer
+                        </li>
+                        <li class="my-3">
+                          <span>Email: </span> m.osama20060418@gmail.com
+                        </li>
+                        <li class="my-3"><span>Location: </span> Egypt</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 class="my-4">Skills</h3>
+
+                <span>HTML5 78%</span>
+                <div
+                  class="progress my-3"
+                  role="progressbar"
+                  aria-label="HTML5 skill level"
+                  aria-valuenow="78"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 78%"></div>
+                </div>
+
+                <span>CSS3 75%</span>
+                <div
+                  class="progress my-3"
+                  role="progressbar"
+                  aria-label="CSS3 skill level"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 75%"></div>
+                </div>
+
+                <span>JAVASCRIPT 60%</span>
+                <div
+                  class="progress my-3"
+                  role="progressbar"
+                  aria-label="JAVASCRIPT skill level"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 60%"></div>
+                </div>
+
+                <span>BOOTSTRAP 70%</span>
+                <div
+                  class="progress my-3"
+                  role="progressbar"
+                  aria-label="BOOTSTRAP skill level"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 70%"></div>
+                </div>
+
+                <span>REACT.JS 55%</span>
+                <div
+                  class="progress my-3"
+                  role="progressbar"
+                  aria-label="REACT.JS skill level"
+                  aria-valuenow="55"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 55%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div>
+                <h2 class="mb-4">About Me</h2>
+                <p class="lead">
+                  I'm a first-year Computer Science student at the Higher
+                  Technological Institute (HTI), with a genuine interest in
+                  building clean and user-friendly websites.
+                </p>
+                <p class="lead">
+                  I'm currently a React.js Intern at the Digital Egypt Pioneers
+                  Initiative (DEPI), where I'm strengthening my front-end skills
+                  and getting more comfortable with component-based development.
+                  Alongside that, my coursework is giving me a foundation in
+                  programming and problem-solving with C++, Python, PHP and SQL.
+                </p>
+                <p class="lead">
+                  My goal is to keep building real projects, learn from them,
+                  and grow into a Full Stack Web Developer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center mb-5">
+                <h2 class="title fw-bold text-uppercase">Services</h2>
+                <p class="subtitle lead">What I can help with</p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-4">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card h-100 text-center p-3 shadow-lg rounded-4">
+                <span class="circle"
+                  ><i class="fa-solid fa-mobile-screen fa-2xl"></i
+                ></span>
+                <h3 class="py-3 fs-4">Responsive Web Development</h3>
+                <p>
+                  Building layouts that work well on mobile, tablet and desktop
+                  screens.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card h-100 text-center p-3 shadow-lg rounded-4">
+                <span class="circle"
+                  ><i class="fa-solid fa-code fa-2xl"></i
+                ></span>
+                <h3 class="py-3 fs-4">Front-End Development</h3>
+                <p>
+                  Turning designs into working pages with HTML, CSS and
+                  JavaScript.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card h-100 text-center p-3 shadow-lg rounded-4">
+                <span class="circle"
+                  ><i class="fa-solid fa-rocket fa-2xl"></i
+                ></span>
+                <h3 class="py-3 fs-4">Landing Page Development</h3>
+                <p>
+                  Simple, clear one-page sites for products, portfolios or
+                  events.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card h-100 text-center p-3 shadow-lg rounded-4">
+                <span class="circle"
+                  ><i class="fa-solid fa-palette fa-2xl"></i
+                ></span>
+                <h3 class="py-3 fs-4">Website UI Implementation</h3>
+                <p>
+                  Rebuilding a design or mockup into clean, working front-end
+                  code.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- counter Section -->
+      <section id="counter">
+        <div class="container">
+          <div class="row g-5 text-center text-white py-5">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="info text-white d-flex flex-column align-items-center"
+              >
+                <div
+                  class="icon border border-4 rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3"
+                >
+                  <i class="fa-solid fa-check fs-2"></i>
+                </div>
+                <span class="fs-2 mb-2">3</span>
+                <p class="text-uppercase">Projects Built</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="info text-white d-flex flex-column align-items-center"
+              >
+                <div
+                  class="icon border border-4 rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3"
+                >
+                  <i class="fa-brands fa-github fs-2"></i>
+                </div>
+                <span class="fs-2 mb-2">7</span>
+                <p class="text-uppercase">GitHub Repositories</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="info text-white d-flex flex-column align-items-center"
+              >
+                <div
+                  class="icon border border-4 rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3"
+                >
+                  <i class="fa-solid fa-briefcase fs-2"></i>
+                </div>
+                <span class="fs-2 mb-2">1</span>
+                <p class="text-uppercase">DEPI Internship</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div
+                class="info text-white d-flex flex-column align-items-center"
+              >
+                <div
+                  class="icon border border-4 rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3"
+                >
+                  <i class="fa-solid fa-graduation-cap fs-2"></i>
+                </div>
+                <span class="fs-2 mb-2">2028</span>
+                <p class="text-uppercase">Expected Graduation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="Work">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center mb-5">
+                <h2 class="title fw-bold text-uppercase">Portfolio</h2>
+                <p class="subtitle lead">Some of the projects I've built</p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- Project 1: Tech Store -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card text-center h-100 p-3 shadow-lg rounded-4">
+                <img
+                  src="images/tech-store.jpg"
+                  alt="Tech Store project screenshot"
+                  class="card-img rounded-3 project-img"
+                />
+
+                <div class="card-body d-flex flex-column px-1">
+                  <h3 class="card-title fs-4 fw-bold">Tech Store</h3>
+
+                  <p class="card-text text-secondary small">
+                    A responsive front-end e-commerce technology store with
+                    product search, category filtering, dark mode and a
+                    validated contact form.
+                  </p>
+
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-light text-primary">HTML5</span>
+                    <span class="badge bg-light text-primary">CSS3</span>
+                    <span class="badge bg-light text-primary">Bootstrap 5</span>
+                    <span class="badge bg-light text-primary">JavaScript</span>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 border-top pt-3">
+                  <a
+                    href="https://mazen-osama-1.github.io/techStore/"
+                    target="_blank"
+                    class="btn btn-outline-primary btn-sm flex-grow-1"
+                  >
+                    Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/mazen-osama-1/techStore"
+                    target="_blank"
+                    class="btn btn-outline-dark btn-sm"
+                    title="View source on GitHub"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: Kasper Template -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card text-center h-100 p-3 shadow-lg rounded-4">
+                <img
+                  src="images/kasper.jpg"
+                  alt="Kasper Template project screenshot"
+                  class="card-img rounded-3 project-img"
+                />
+
+                <div class="card-body d-flex flex-column px-1">
+                  <h3 class="card-title fs-4 fw-bold">Kasper Template</h3>
+
+                  <p class="card-text text-secondary small">
+                    A responsive creative agency website built with plain HTML
+                    and CSS, focused on layout structure and clean styling.
+                  </p>
+
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-light text-primary">HTML5</span>
+                    <span class="badge bg-light text-primary">CSS3</span>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 border-top pt-3">
+                  <a
+                    href="https://mazen-osama-1.github.io/template_Two_Kasper/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline-primary btn-sm flex-grow-1"
+                  >
+                    Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/mazen-osama-1/template_Two_Kasper"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline-dark btn-sm"
+                    title="View source on GitHub"
+                    aria-label="GitHub repository"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: Leon Template -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card text-center h-100 p-3 shadow-lg rounded-4">
+                <img
+                  src="images/leon.jpg"
+                  alt="Leon Template project screenshot"
+                  class="card-img rounded-3 project-img"
+                />
+
+                <div class="card-body d-flex flex-column px-1">
+                  <h3 class="card-title fs-4 fw-bold">Leon Template</h3>
+
+                  <p class="card-text text-secondary small">
+                    A responsive agency website based on the Leon design,
+                    implemented with HTML and CSS.
+                  </p>
+
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-light text-primary">HTML5</span>
+                    <span class="badge bg-light text-primary">CSS3</span>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 border-top pt-3">
+                  <a
+                    href="https://mazen-osama-1.github.io/template_one_Leon/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline-primary btn-sm flex-grow-1"
+                  >
+                    Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/mazen-osama-1/template_one_Leon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline-dark btn-sm"
+                    title="View source on GitHub"
+                    aria-label="GitHub repository"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+
+      <section
+        id="testimonials"
+        class="testimonials-section position-relative text-white text-center"
+      >
+        <div class="container position-relative py-5">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="5000"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonial-content mx-auto">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    alt="Ahmed Hassan"
+                    class="testimonial-img rounded-circle mb-3"
+                  />
+
+                  <h3 class="text-uppercase fw-bold mb-2">Ahmed Hassan</h3>
+                  <p class="small text-uppercase opacity-75 mb-3">
+                    Peer Developer
+                  </p>
+
+                  <p class="testimonial-text mx-auto mb-3">
+                    MaZen writes clean, well-organized code and always checks
+                    his layouts on every screen size. He learns new tools fast
+                    and is easy to work with.
+                  </p>
+
+                  <i class="fa-solid fa-quote-left fs-2"></i>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="testimonial-content mx-auto">
+                  <img
+                    src="images/testimonial-4.jpg"
+                    alt="Mona Mohamed"
+                    class="testimonial-img rounded-circle mb-3"
+                  />
+
+                  <h3 class="text-uppercase fw-bold mb-2">Mona Mohamed</h3>
+                  <p class="small text-uppercase opacity-75 mb-3">
+                    Project Collaborator
+                  </p>
+
+                  <p class="testimonial-text mx-auto mb-3">
+                    Great experience from start to finish. The website looks
+                    professional, works smoothly, and matches exactly what we
+                    needed.
+                  </p>
+
+                  <i class="fa-solid fa-quote-left fs-2"></i>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <!-- Next Button -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row g-4 bg-white shadow-sm p-4 p-md-5">
+            <!-- Send Message -->
+            <div class="col-12 col-md-6">
+              <div class="d-grid gap-4">
+                <h3 class="text-uppercase text-dark mb-0">Send Message Us</h3>
+                <div class="contact-line"></div>
+
+                <form action="">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control rounded-0"
+                      placeholder="Your Name"
+                      aria-label="Your Name"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control rounded-0"
+                      placeholder="Your Email"
+                      aria-label="Your Email"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control rounded-0"
+                      placeholder="Subject"
+                      aria-label="Subject"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control rounded-0"
+                      rows="5"
+                      placeholder="Message"
+                      aria-label="Message"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="text-center">
+                    <button
+                      type="submit"
+                      class="btn btn-primary rounded-pill py-2 px-4 fs-5"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!-- Get In Touch -->
+            <div class="col-12 col-md-6">
+              <div class="d-grid gap-4">
+                <h3 class="text-uppercase text-dark mb-0">Get In Touch</h3>
+                <div class="contact-line"></div>
+
+                <p class="fs-5 text-secondary mb-0">
+                  I'm open to professional opportunities and collaborations.
+                  Feel free to get in touch to discuss your project, share
+                  ideas, or explore how we can work together to bring your
+                  vision to life.
+                </p>
+
+                <!-- Contact Information -->
+                <ul class="list-unstyled d-grid gap-3 mb-0">
+                  <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-location-dot text-primary"></i>
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Egypt"
+                      class="text-secondary text-decoration-none"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Egypt
+                    </a>
+                  </li>
+
+                  <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-envelope text-primary"></i>
+                    <a
+                      class="text-secondary text-decoration-none"
+                      href="mailto:m.osama20060418@gmail.com"
+                    >
+                      m.osama20060418@gmail.com
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="d-flex gap-3">
+                  <a
+                    href="https://github.com/MaZen-Osama-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="box-icon rounded-circle d-flex align-items-center justify-content-center text-dark text-decoration-none"
+                    aria-label="GitHub"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+
+                  <a
+                    href="https://linkedin.com/in/mazenosama483926353"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="box-icon rounded-circle d-flex align-items-center justify-content-center text-dark text-decoration-none"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-primary">
+      <div class="container">
+        <div class="text-center py-3 py-md-4 text-white">
+          <div>
+            &copy; Copyright <span class="fw-bold">MaZen Osama</span>. All
+            Rights Reserved
+          </div>
+          <div>Designed by MaZen Osama</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/typed.umd.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
